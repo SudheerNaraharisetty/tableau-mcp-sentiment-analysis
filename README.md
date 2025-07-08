@@ -28,7 +28,7 @@ To start the server, run the following command:
 python app.py
 ```
 
-The server will start on `http://127.0.0.1:5000`.
+The server will start on `http://127.0.0.1:5001`.
 
 ## Using in Tableau
 
@@ -37,7 +37,7 @@ The server will start on `http://127.0.0.1:5000`.
 3.  Select **TabPy/External API**.
 4.  Enter the server details:
     *   **Server:** `localhost`
-    *   **Port:** `5000`
+    *   **Port:** `5001`
 5.  Create a new calculated field in your workbook with the following formula:
     ```
     SCRIPT_STR("/sentiment", ATTR([Your TextField]))
